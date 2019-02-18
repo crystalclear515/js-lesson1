@@ -13,7 +13,7 @@ function rowSumOddNumbers(i) {
       return 'Введите число!';
   }
 
-  if (i < 0 || i > arr.length) {
+  if (i <= 0 || i > arr.length) {
       return 'Выход за пределы массива!'
   }
 
