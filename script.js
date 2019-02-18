@@ -43,7 +43,7 @@ function toHex(i) {
       result += hex[reminder];
   }
 
-  return result;
+  return result.split('').reverse().join('');
 }
 
 console.log(toHex(420));
